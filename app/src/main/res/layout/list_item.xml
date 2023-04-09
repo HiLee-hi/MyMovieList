@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="@string/textView_title" />
+
+    <ImageView
+        android:id="@+id/imageView_rating"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/imageView_description"
+        android:src="@drawable/yellow_star"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView_rating"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="@string/textView_star" />
+
+    <TextView
+        android:id="@+id/textView_date"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="@string/textView_date" />
+
+    <Button
+        android:id="@+id/button_menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_action_menu"
+        android:backgroundTint="@color/blue2"
+        android:textColor="#5D4037"
+        tools:ignore="SpeakableTextPresentCheck" />
+</LinearLayout>
